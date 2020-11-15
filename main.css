@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'ALK Rounded Nusx Med';
+    src: url('fonts/alk-rounded-nusx-med-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/alk-rounded-nusx-med-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/alk-rounded-nusx-med-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/alk-rounded-nusx-med-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/alk-rounded-nusx-med-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/alk-rounded-nusx-med-webfont.svg#alk_rounded_nusx_medregular') format('svg'); /* Legacy iOS */
+}
+
+* { font-family: 'ALK Rounded Nusx Med';}
+
+#logo  {width: 100px;
+height: 80px}
+.articleImg {width: 333px;
+height: 333px}
+.title {font-size: 20px;
+font-style:italic;
+color:#61114B;}
+.readMore {color: red}
+.inline-block {display: inline-block;}
+.text {color: #041608s}
+nav li {padding: 0px 10px}
+h1 {  background-color: #76448A;
+    color: red;
+    font-size: 20px;
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    margin:auto;
+    padding: 1px;
+
+    }
+    nav a:hover {color: red}
+
+    .readMore:hover {color: yellow}
+    h1:hover {cursor: pointer;}
